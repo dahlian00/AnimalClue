@@ -28,7 +28,7 @@ All detection models used in our dataset are publicly available, and we followed
 ## 🚀 Demo on Hugging Face Spaces
 
 Try all five models interactively here:  
-👉 [AnimalClue YOLO Demo](https://huggingface.co/spaces/risashinoda/animalclue-demo)  
+👉 [AnimalClue YOLO Demo](https://huggingface.co/spaces/risashinoda/animalclue_yolo_det)  
 
 Features:
 - Select Footprint / Feces / Egg / Bone / Feather models from a simple UI  
