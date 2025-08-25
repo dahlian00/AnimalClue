@@ -25,6 +25,18 @@ Our goal is to explore whether current models can infer animal identity from tra
 
 All detection models used in our dataset are publicly available, and we followed their original instructions for inference.
 
+## 🚀 Demo on Hugging Face Spaces
+
+Try all five models interactively here:  
+👉 [AnimalClue YOLO Demo](https://huggingface.co/spaces/risashinoda/animalclue-demo)  
+
+Features:
+- Select Footprint / Feces / Egg / Bone / Feather models from a simple UI  
+- Adjust confidence & IoU thresholds  
+- See bounding boxes (with or without class labels)  
+- Download detection results
+
+
 ##  Dataset 
 
 We provide YOLO-format datasets (bounding boxes + segmentation masks) on Hugging Face:
@@ -45,6 +57,20 @@ Each dataset contains:
 
 > You can also extract bounding box data for classification purposes.  
 > (We will provide sample code for this soon!)
+
+##  Pretrained YOLO Models
+
+We trained YOLOv11 models (using Ultralytics) on each dataset.  
+All weights are publicly available:
+
+| Category   | Model Repo Link                                                     | Checkpoint |
+|------------|----------------------------------------------------------------------|------------|
+| Footprint  | [risashinoda/footprint_yolo](https://huggingface.co/risashinoda/footprint_yolo) | `last.pt` |
+| Feces      | [risashinoda/feces_yolo](https://huggingface.co/risashinoda/feces_yolo) | `last.pt` |
+| Egg        | [risashinoda/egg_yolo](https://huggingface.co/risashinoda/egg_yolo) | `best.pt` |
+| Bones      | [risashinoda/bone_yolo](https://huggingface.co/risashinoda/bone_yolo) | `last.pt` |
+| Feather    | [risashinoda/feather_yolo](https://huggingface.co/risashinoda/feather_yolo) | `last.pt` |
+
 
 ## ✅ To-Do
 
