@@ -63,14 +63,13 @@ Each dataset contains:
 We trained YOLOv11 models (using Ultralytics) on each dataset.  
 All weights are publicly available:
 
-| Category   | Model Repo Link                                                     | Checkpoint |
-|------------|----------------------------------------------------------------------|------------|
-| Footprint  | [risashinoda/footprint_yolo](https://huggingface.co/risashinoda/footprint_yolo) | `last.pt` |
-| Feces      | [risashinoda/feces_yolo](https://huggingface.co/risashinoda/feces_yolo) | `last.pt` |
-| Egg        | [risashinoda/egg_yolo](https://huggingface.co/risashinoda/egg_yolo) | `best.pt` |
-| Bones      | [risashinoda/bone_yolo](https://huggingface.co/risashinoda/bone_yolo) | `last.pt` |
-| Feather    | [risashinoda/feather_yolo](https://huggingface.co/risashinoda/feather_yolo) | `last.pt` |
-
+| Category   | Model Repo Link                                                     | 
+|------------|----------------------------------------------------------------------|
+| Footprint  | [risashinoda/footprint_yolo](https://huggingface.co/risashinoda/footprint_yolo) | 
+| Feces      | [risashinoda/feces_yolo](https://huggingface.co/risashinoda/feces_yolo) | 
+| Egg        | [risashinoda/egg_yolo](https://huggingface.co/risashinoda/egg_yolo) |
+| Bones      | [risashinoda/bone_yolo](https://huggingface.co/risashinoda/bone_yolo) |
+| Feather    | [risashinoda/feather_yolo](https://huggingface.co/risashinoda/feather_yolo) | 
 
 ## ✅ To-Do
 
