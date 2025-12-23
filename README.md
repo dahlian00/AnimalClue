@@ -71,15 +71,3 @@ All weights are publicly available:
 | Bones      | [risashinoda/bone_yolo](https://huggingface.co/risashinoda/bone_yolo) |
 | Feather    | [risashinoda/feather_yolo](https://huggingface.co/risashinoda/feather_yolo) | 
 
-## ✅ To-Do
-
-We are actively working on the following components to complete the AnimalClue release:
-
-- [x] **Upload YOLO images**  
-
-- [x] **Upload animal taxonomy (species hierarchy)**  
-
-- [ ] **Provide detailed metadata**  
-
-- [ ] **Release sample code for training & evaluation**  
-
