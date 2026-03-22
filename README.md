@@ -71,3 +71,14 @@ All weights are publicly available:
 | Bones      | [risashinoda/bone_yolo](https://huggingface.co/risashinoda/bone_yolo) |
 | Feather    | [risashinoda/feather_yolo](https://huggingface.co/risashinoda/feather_yolo) | 
 
+## Citation
+```
+@inproceedings{shinoda2025animalclue,
+  title={AnimalClue: Recognizing Animals by Their Traces},
+  author={Shinoda, Risa and Inoue, Nakamasa and Laina, Iro and Rupprecht, Christian and Kataoka, Hirokatsu},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={14776--14786},
+  year={2025}
+}
+```
+
